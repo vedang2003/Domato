@@ -1,0 +1,31 @@
+#footer {
+    border: 1px solid #282a35;
+    height: 150px;
+    background-color: #282a35;
+}
+
+#footer p {
+    margin-top: 15px;
+    color: white;
+}
+
+#footer>div {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+#footer>div>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    width: 9px;
+    background-color: #cfcfcf;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4c4c4c;
+    border-radius: 5px;
+}

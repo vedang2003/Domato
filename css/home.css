@@ -1,0 +1,64 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.gird {
+    max-width: 1200px;
+    margin: 20px auto 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.gird>a>div {
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gird>a>div>div {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+    transition: all 1s ease;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.headingText {
+    margin: 0px auto;
+    max-width: 700px;
+    padding: 20px;
+    color: gray;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .gird {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gird {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gird {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
