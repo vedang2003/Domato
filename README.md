@@ -25,13 +25,13 @@ This project was built using HTML5, CSS3, JavaScript, Rest API. It is an e-comme
 ```
 Using HTTPS
 
-# git clone  
+# git clone https://github.com/vedang2003/Domato.git
 ```
 
 + Open terminal on your workspace with
 
 ```
-cd /home/workspace/Food-Store
+cd /home/workspace/Domato
 ```
 
 
